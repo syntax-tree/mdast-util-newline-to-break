@@ -1,5 +1,6 @@
 {
-  "exclude": ["coverage"],
+  "include": ["**/**.js", "*.js"],
+  "exclude": ["coverage", "node_modules"],
   "compilerOptions": {
     "target": "es2020",
     "lib": ["es2020"],
