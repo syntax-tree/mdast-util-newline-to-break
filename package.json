@@ -1,6 +1,6 @@
 {
   "name": "mdast-util-newline-to-break",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "mdast utility to support hard breaks without needing spaces or escapes",
   "license": "MIT",
   "keywords": [
