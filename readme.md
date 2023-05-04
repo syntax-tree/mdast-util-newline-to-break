@@ -184,8 +184,6 @@ abide by its terms.
 
 [build]: https://github.com/syntax-tree/mdast-util-newline-to-break/actions
 
-[content]: https://github.com/syntax-tree/mdast#content
-
 [coverage-badge]: https://img.shields.io/codecov/c/github/syntax-tree/mdast-util-newline-to-break.svg
 
 [coverage]: https://codecov.io/github/syntax-tree/mdast-util-newline-to-break
@@ -222,15 +220,13 @@ abide by its terms.
 
 [coc]: https://github.com/syntax-tree/.github/blob/HEAD/code-of-conduct.md
 
-[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
-
 [license]: license
 
 [author]: https://wooorm.com
 
 [remark-breaks]: https://github.com/remarkjs/remark-breaks
 
-[root]: https://github.com/syntax-tree/mdast#root
+[node]: https://github.com/syntax-tree/mdast#nodes
 
 [xss]: https://en.wikipedia.org/wiki/Cross-site_scripting
 
@@ -242,5 +238,6 @@ abide by its terms.
 
 [remark]: https://github.com/remarkjs/remark
 
-
 [api-newline-to-break]: #newlinetobreaktree
+
+[unified]: https://github.com/unifiedjs/unified
