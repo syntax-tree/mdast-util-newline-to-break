@@ -10,7 +10,7 @@
     "newline",
     "linefeed"
   ],
-  "repository": "remarkjs/remark-breaks",
+  "repository": "syntax-tree/mdast-util-newline-to-break",
   "bugs": "https://github.com/syntax-tree/mdast-util-newline-to-break/issues",
   "funding": {
     "type": "opencollective",
@@ -25,7 +25,7 @@
   "type": "module",
   "exports": "./index.js",
   "files": [
-    "lib",
+    "lib/",
     "index.d.ts",
     "index.js"
   ],
@@ -65,7 +65,7 @@
   },
   "remarkConfig": {
     "plugins": [
-      "preset-wooorm"
+      "remark-preset-wooorm"
     ]
   },
   "typeCoverage": {

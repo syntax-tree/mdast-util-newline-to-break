@@ -8,7 +8,7 @@
 [![Backers][backers-badge]][collective]
 [![Chat][chat-badge]][chat]
 
-[**mdast**][mdast] utility to support hard breaks without needing spaces or
+**[mdast][]** utility to support hard breaks without needing spaces or
 escapes (turns enters into `<br>`s).
 
 ## Contents
@@ -69,14 +69,14 @@ npm install mdast-util-newline-to-break
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import newlineToBreak from 'https://esm.sh/mdast-util-newline-to-break@3'
+import newlineToBreak from 'https://esm.sh/mdast-util-newline-to-break@0'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import newlineToBreak from 'https://esm.sh/mdast-util-newline-to-break@3?bundle'
+  import newlineToBreak from 'https://esm.sh/mdast-util-newline-to-break@0?bundle'
 </script>
 ```
 
@@ -100,6 +100,7 @@ import {toMarkdown} from 'mdast-util-to-markdown'
 
 const doc = await fs.readFile('example.md')
 const tree = fromMarkdown(doc)
+
 newlineToBreak(tree)
 
 console.log(toMarkdown(tree))
@@ -114,7 +115,7 @@ paragraph.
 
 ## API
 
-This package exports the identifier `newlineToBreak`.
+This package exports the identifier [`newlineToBreak`][api-newline-to-break].
 There is no default export.
 
 ### `newlineToBreak(tree)`
@@ -123,13 +124,12 @@ Turn normal line endings into hard breaks.
 
 #### Parameters
 
-*   `tree` ([`Content`][content] | [`Root`][root]) — The [mdast][] tree in
-    which to turn normal line endings into hard breaks.
+*   `tree` ([`Node`][node])
+    — tree to modify
 
 ## Syntax
 
-This utility looks for markdown line endings (`\r`, `\n`, and `\r\n`) preceded
-by zero or more spaces and tabs.
+This utility looks for markdown line endings (`\r`, `\n`, and `\r\n`).
 
 ## Syntax tree
 
@@ -150,7 +150,7 @@ Our projects sometimes work with older versions, but this is not guaranteed.
 
 ## Security
 
-Use of `mdast-util-newline-to-break` does not involve ([**hast**][hast]) or user
+Use of `mdast-util-newline-to-break` does not involve **[hast][]** or user
 content so there are no openings for [cross-site scripting (XSS)][xss] attacks.
 
 ## Related
@@ -222,6 +222,8 @@ abide by its terms.
 
 [coc]: https://github.com/syntax-tree/.github/blob/HEAD/code-of-conduct.md
 
+[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+
 [license]: license
 
 [author]: https://wooorm.com
@@ -240,4 +242,5 @@ abide by its terms.
 
 [remark]: https://github.com/remarkjs/remark
 
-[unified]: https://github.com/unifiedjs/unified
+
+[api-newline-to-break]: #newlinetobreaktree
