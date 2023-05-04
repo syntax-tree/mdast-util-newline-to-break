@@ -192,6 +192,8 @@ abide by its terms.
 
 [downloads]: https://www.npmjs.com/package/mdast-util-newline-to-break
 
+[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+
 [size-badge]: https://img.shields.io/bundlephobia/minzip/mdast-util-newline-to-break.svg
 
 [size]: https://bundlephobia.com/result?p=mdast-util-newline-to-break
