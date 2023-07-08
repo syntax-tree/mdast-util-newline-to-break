@@ -1,4 +1,4 @@
-# remark-breaks
+# mdast-util-newline-to-break
 
 [![Build][build-badge]][build]
 [![Coverage][coverage-badge]][coverage]
@@ -143,10 +143,13 @@ There are no extra exported types.
 
 ## Compatibility
 
-Projects maintained by the unified collective are compatible with all maintained
+Projects maintained by the unified collective are compatible with maintained
 versions of Node.js.
-As of now, that is Node.js 16+.
-Our projects sometimes work with older versions, but this is not guaranteed.
+
+When we cut a new major release, we drop support for unmaintained versions of
+Node.
+This means we try to keep the current release line,
+`mdast-util-newline-to-break@^1`, compatible with Node.js 12.
 
 ## Security
 
@@ -194,9 +197,9 @@ abide by its terms.
 
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
-[size-badge]: https://img.shields.io/bundlephobia/minzip/mdast-util-newline-to-break.svg
+[size-badge]: https://img.shields.io/badge/dynamic/json?label=minzipped%20size&query=$.size.compressedSize&url=https://deno.bundlejs.com/?q=mdast-util-newline-to-break
 
-[size]: https://bundlephobia.com/result?p=mdast-util-newline-to-break
+[size]: https://bundlejs.com/?q=mdast-util-newline-to-break
 
 [sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg
 
