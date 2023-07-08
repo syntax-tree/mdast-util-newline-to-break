@@ -69,14 +69,14 @@ npm install mdast-util-newline-to-break
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import {newlineToBreak} from 'https://esm.sh/mdast-util-newline-to-break@1'
+import {newlineToBreak} from 'https://esm.sh/mdast-util-newline-to-break@2'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import {newlineToBreak} from 'https://esm.sh/mdast-util-newline-to-break@1?bundle'
+  import {newlineToBreak} from 'https://esm.sh/mdast-util-newline-to-break@2?bundle'
 </script>
 ```
 
@@ -219,11 +219,11 @@ abide by its terms.
 
 [health]: https://github.com/syntax-tree/.github
 
-[contributing]: https://github.com/syntax-tree/.github/blob/HEAD/contributing.md
+[contributing]: https://github.com/syntax-tree/.github/blob/main/contributing.md
 
-[support]: https://github.com/syntax-tree/.github/blob/HEAD/support.md
+[support]: https://github.com/syntax-tree/.github/blob/main/support.md
 
-[coc]: https://github.com/syntax-tree/.github/blob/HEAD/code-of-conduct.md
+[coc]: https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md
 
 [license]: license
 
